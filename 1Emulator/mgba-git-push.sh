@@ -6,7 +6,7 @@ export DISPLAY=:0
 export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u)/bus"
 
 REPO_DIR="$HOME/GBA"
-LOG_FILE="$REPO_DIR/auto_git_sync.log"
+LOG_FILE="$REPO_DIR/.log"
 DATE_FULL=$(date +"%a %b %d %Y %H:%M:%S")
 TIME_SHORT=$(date +"%H:%M:%S")
 
